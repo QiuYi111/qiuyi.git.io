@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jingyi的个人网站</title>
+    <link>https://github.com/QiuYi111/QiuYi111.github.io/</link>
+    <description>Recent content on Jingyi的个人网站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 04 Oct 2024 21:42:51 +0200</lastBuildDate><atom:link href="https://github.com/QiuYi111/QiuYi111.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一个Blog!!!!</title>
+      <link>https://github.com/QiuYi111/QiuYi111.github.io/zh-cn/blogs/bloh1/</link>
+      <pubDate>Fri, 04 Oct 2024 21:42:51 +0200</pubDate>
+      
+      <guid>https://github.com/QiuYi111/QiuYi111.github.io/zh-cn/blogs/bloh1/</guid>
+      
+      <description>&lt;h2 id=&#34;我麻了&#34;&gt;我麻了&lt;/h2&gt;
+&lt;p&gt;受不了了因为一个加减号倒腾了半天&lt;/p&gt;
+&lt;p&gt;气死我了&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://github.com/QiuYi111/QiuYi111.github.io/zh-cn/resume/</link>
+      <pubDate>Fri, 04 Oct 2024 21:08:53 +0200</pubDate>
+      
+      <guid>https://github.com/QiuYi111/QiuYi111.github.io/zh-cn/resume/</guid>
+      
+      <description>&lt;h2 id=&#34;个人信息&#34;&gt;个人信息&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Avatar&#34; src=&#34;https://github.com/QiuYi111/QiuYi111.github.io/images/avatar.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;姓名&lt;/strong&gt;: 邱璟祎&lt;br&gt;
+&lt;strong&gt;邮箱&lt;/strong&gt;: &lt;a href=&#34;mailto:your.email@example.com&#34;&gt;your.email@example.com&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;电话&lt;/strong&gt;: 123-456-7890&lt;br&gt;
+&lt;strong&gt;LinkedIn&lt;/strong&gt;: &lt;a href=&#34;https://www.linkedin.com/in/yourprofile&#34;&gt;https://www.linkedin.com/in/yourprofile&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;个人简介&#34;&gt;个人简介&lt;/h2&gt;
+&lt;p&gt;我是一个充满热情的机械工程师，目前正在清华大学攻读学士学位。我致力于通过技术解决实际问题，并希望在未来创办自己的公司。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;教育背景&#34;&gt;教育背景&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;清华大学&lt;/strong&gt;, 学士, 机械工程 (2019 - 2024)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;代尔夫特理工大学&lt;/strong&gt;, 交换生, 机械工程 (2022 - 2023)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;工作经验&#34;&gt;工作经验&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;实习工程师 - 某公司&lt;/strong&gt; (2023年6月 - 2023年8月)&lt;br&gt;
+参与了机械设备的设计和优化，使用CAD软件设计了多种部件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;技能&#34;&gt;技能&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SolidWorks&lt;/li&gt;
+&lt;li&gt;AutoCAD&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Matlab&lt;/li&gt;
+&lt;li&gt;项目管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;项目经验&#34;&gt;项目经验&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;机械设备自动化项目&lt;/strong&gt;&lt;br&gt;
+参与了该项目的开发，负责硬件设计和控制系统的集成。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

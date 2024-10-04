@@ -1,0 +1,48 @@
+/* 头像样式 */
+.avatar img {
+    width: 450px; /* 修改为450px */
+    height: 450px; /* 修改为450px */
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* 作者名字与简介 */
+.author-name {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.author-intro {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* 按钮样式 */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 10px 0;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,131 @@
+title = "Jingyi的个人网站"
+baseURL = 'http://localhost:1313/'
+languageCode = 'zh-cn'
+defaultContentLanguage = "zh-cn"
+enableEmoji = true
+theme = "hugo-blog-awesome"
+
+# 禁用其他外部脚本错误警告
+ignoreErrors = ["additional-script-loading-error"]
+[params]
+  [params.author]
+    name = "Qiu Jingyi"
+    avatar = "/images/avatar.jpg"
+    intro = "欢迎来到我的个人网站！"
+
+
+
+
+
+# 高亮代码配置
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+# 启用目录从 H2 开始到 H4 结束
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+# 多语言支持
+[languages]
+  [languages.zh-cn.menu]
+  [[languages.zh-cn.menu.main]]
+    identifier = "home"
+    name = "主页"
+    url = "/"
+    weight = 0  # 让它出现在菜单的最前面
+
+  [[languages.zh-cn.menu.main]]
+    identifier = "resume"
+    name = "简历"
+    url = "/resume/"
+    weight = 1
+
+  [[languages.zh-cn.menu.main]]
+    identifier = "blog"
+    name = "博客"
+    url = "/blogs/"
+    weight = 2
+
+  [[languages.zh-cn.menu.main]]
+    identifier = "novels"
+    name = "小说"
+    url = "/novels/"
+    weight = 3
+
+
+    [languages.zh-cn.params]
+      sitename = "Jingyi的个人网站"
+      description = "Qiu Jingyi的个人站点，展示简历、博客和小说作品"
+      mainSections = ['blog', 'novels']
+      toc = true
+      goToTop = true
+      additionalScripts = ['js/custom.js']
+      dateFormat = "2006年01月02日"
+
+      # 头像点击后跳转到简历页面，保留名字和按钮
+      [languages.zh-cn.params.author]
+        avatar = "/images/avatar.jpg"
+        name = "邱璟祎"
+        intro = "欢迎来到我的个人网站！"
+        buttons = [
+          { text = "查看博客", url = "/blogs/" },
+          { text = "阅读小说", url = "/novels/" }
+        ]
+        resume = "/resume/"
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-gb"
+    contentDir = "content/en"
+    weight = 2
+
+      [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 0  # 让它出现在菜单的最前面
+
+      [[languages.en.menu.main]]
+        identifier = "resume"
+        name = "Resume"
+        url = "/resume/"
+        weight = 1
+
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blogs/"
+        weight = 2
+
+      [[languages.en.menu.main]]
+        identifier = "novels"
+        name = "Novels"
+        url = "/novels/"
+        weight = 3
+
+
+    [languages.en.params]
+      sitename = "Jingyi's Website"
+      description = "Qiu Jingyi's personal site, showcasing resume, blog, and novels"
+      mainSections = ['blog', 'novels']
+      toc = true
+      goToTop = true
+      additionalScripts = ['js/custom.js']
+      dateFormat = "2 Jan 2006"
+
+      # 首页设置，头像和按钮
+      [languages.en.params.author]
+        avatar = "/images/avatar.jpg"
+        name = "Qiu Jingyi"
+        intro = "Welcome to my personal website!"
+        buttons = [
+          { text = "View Blog", url = "/blogs/" },
+          { text = "Read Novels", url = "/novels/" }
+        ]
+        resume = "/resume/"
